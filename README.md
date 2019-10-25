@@ -13,10 +13,12 @@ Via the usual composer command:
 
     composer require sindev95/stylist
 
-Then, make sure the Stylist service provider is made available to your application by updating your config/app.php:
+This step is not required because of the laravel package auto discovery
+<s>Then, make sure the Stylist service provider is made available to your application by updating your config/app.php:
 
     FloatingPoint\Stylist\StylistServiceProvider,
 
+</s>
 You're now ready to go!
 
 ## Setting up a theme
