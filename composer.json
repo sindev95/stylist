@@ -1,6 +1,6 @@
 {
-    "name": "sindev95/stylist",
-    "description": "Laravel 6 theming package.",
+    "name": "deltaspikeme/stylist-theme",
+    "description": "Laravel theming package.",
     "authors": [
         {
             "name": "Kirk Bushell",
@@ -13,17 +13,21 @@
         {
             "name": "Yassine Kraiem",
             "email": "kamisama953@gmail.com"
+        },
+        {
+            "name": "Muhannad Alhariri",
+            "email": "muh.acit@gmail.com"
         }
     ],
     "require": {
-        "php": "^7.2",
-        "laravelcollective/html": "^6.0",
-        "illuminate/support": "^6.0"
+        "php": "^8.2",
+        "spatie/laravel-html": "^3.5.0",
+        "illuminate/support": "^v10.45.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
-        "orchestra/testbench": "^4.0",
-        "phpunit/phpunit": "^8.0"
+        "orchestra/testbench": "^v8.21.1",
+        "phpunit/phpunit": "^10.1"
     },
     "autoload": {
         "psr-4": {
