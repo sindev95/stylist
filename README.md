@@ -11,7 +11,7 @@ Stylist is a Laravel +5.5 compatible package for theming your Laravel applicatio
 
 Via the usual composer command:
 
-    composer require sindev95/stylist
+    composer require deltaspikeme/stylist-theme
 
 This step is not required because of the laravel package auto discovery<br>
 <s>Then, make sure the Stylist service provider is made available to your application by updating your config/app.php:
